@@ -1,0 +1,58 @@
+<title>Consultas Medicas</title>
+<link rel="stylesheet" href="../styles.css">
+<body>
+    <!-- barra navegacion -->
+    <div id="navbar"></div>
+
+    <h1 class="titulo-agenda">Agenda tu proxima consulta</h1>
+    <!--formulario consultas -->
+    <div class="consulta-container">
+        <main>
+            <section class="consulta-medica">
+                <h2>Agendar Consulta Medica</h2>
+                <form action="" method="POST" class="consulta-form">
+                    <label for="nombre-paciente">Nombre Completo:</label>
+                    <input type="text" id="nombre-paciente" name="nombre" required>
+
+                    <label for="email-paciente">Correo Electrónico:</label>
+                    <input type="email" id="email-paciente" name="email" required>
+
+                    <label for="telefono-paciente">Teléfono:</label>
+                    <input type="tel" id="telefono-paciente" name="telefono" required>
+
+                    <label for="fecha-consulta">Fecha de Consulta:</label>
+                    <input type="date" id="fecha-consulta" name="fecha-consulta" required>
+
+                    <label for="hora-consulta">Hora de Consulta:</label>
+                    <input type="time" id="hora-consulta" name="hora-consulta" required>
+
+                    <button type="submit">Agendar Consulta</button>
+                    <button type="reset">Limpiar</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <!-- Consultar Medicamentos -->
+    <div>
+        <h2>Consultar Medicamentos</h2>
+        <form action="" method="POST" class="consulta-form">
+            <label for="nombre-medicamento">Nombre del Medicamento:</label>
+            <input type="text" id="nombre-medicamento" name="medicamento" required>
+
+            <button type="submit">Consultar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+        <div class="resultado-consulta">
+            <h3>Resultado de la Consulta:</h3>
+            <p id="resultado-medicamento">Aquí aparecerá la información del medicamento.</p>
+    </div>
+
+    
+    <!-- footer -->
+    <div id="footer"></div>
+
+    <!--archivo js -->
+    <script defer src="../load.js"></script>
+</body>
+</html>

@@ -1,0 +1,348 @@
+/* navbar */
+nav {
+    background-color: #4CAF50; /* Verde relacionado con salud */
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background 0.3s, border-radius 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+
+/* Estilos para el título principal */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c7a7b; 
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(90deg, #d4f3ef, #a0e3d2); 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+h1:hover {
+    transform: scale(1.05);
+}
+
+
+/* Estilos para la sección de imágenes */
+.imagenes-pag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #e6f4ea, #c8e6c9);
+}
+
+.imagenes-pag img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.imagenes-pag img:hover {
+    transform: scale(1.05);
+}
+
+/* Sección de citas */
+.citas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: linear-gradient(135deg, #e6f4ea, #c8e6c9);
+    padding: 40px 20px;
+}
+
+.citas-container {
+    background: #4CAF50;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    max-width: 420px;
+    text-align: center;
+    color: white;
+}
+
+.citas-container h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.citas-container p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.citas-container button {
+    background: #087f23;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.citas-container button:hover {
+    background: #05691b;
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background: #2e7d32; /* Verde salud */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section {
+    max-width: 300px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.footer-section h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Estilos para los íconos de redes sociales */
+.footer-redes {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-redes a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footer-redes a:hover {
+    color: #c8e6c9;
+    transform: scale(1.1);
+}
+
+/* Copyright */
+.footer-copy {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    background-color: #05691b;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Contenedor de los formularios */
+.registro-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Secciones de registro */
+.registro {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Formularios */
+.registro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.registro-form label {
+    font-weight: bold;
+}
+
+.registro-form input,
+.registro-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* consulta medica */
+.titulo-consulta {
+    text-align: center;
+    color: #333;
+}
+.consulta-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.consulta-medica {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.consulta-medica h2 {
+    text-align: center;
+    color: #444;
+}
+
+/* Estilos del formulario */
+.consulta-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.consulta-form label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+}
+
+.consulta-form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botones */
+.consulta-form button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.consulta-form button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+}
+
+.consulta-form button[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+.consulta-form button:hover {
+    opacity: 0.8;
+}
+
+/* seccio ayuda */
+
+.ayuda-container {
+    background: #b4f0b6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Títulos */
+.ayuda-titulo {
+    color: black;
+    margin-top: 20px;
+}
+
+.ayuda-subtitulo {
+    color: #444;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.texto-ayuda {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
